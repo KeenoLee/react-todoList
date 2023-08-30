@@ -1,28 +1,48 @@
-# React + TypeScript + Vite
+# Simple To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple to-do list application built using React and TypeScript.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
 
-## Expanding the ESLint configuration
+## Description
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This is a straightforward to-do list application created as an assignment using React and TypeScript. The application displays a list of to-do items that can be selected by clicking on checkboxes next to each item.
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- Displays a list of to-do items.
+- Users can click on checkboxes to select and mark items as completed.
+- Selected items are highlighted for easy identification.
+- Bootstrap styling for a clean and responsive design.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# react-todoList
+## Installation
+
+1. Install Node.js if not already installed. You can download it from the official website: [Node.js](https://nodejs.org/)
+2. Clone this repository to your local machine.
+3. Navigate to the project directory using the terminal.
+4. Install project dependencies by running:
+
+   ```sh
+   npm install
+
+## Usage
+
+1. Start the development server by running:
+
+   ```sh
+   npm run dev
+   ```
+2. Open your browser and navigate to http://localhost:3000 to see the application.
+
+3. Interact with the to-do list by clicking on the checkboxes next to each item to mark them as completed.
+
+## screenshots
+
+Demo
+<img width="882" alt="demo" src="https://github.com/KeenoLee/react-todoList/assets/108110943/62179772-ce6b-499e-ae6b-9a9e71777cfa">
