@@ -42,7 +42,7 @@ This is a straightforward to-do list application created as an assignment using 
 
 3. Interact with the to-do list by clicking on the checkboxes next to each item to mark them as completed.
 
-## screenshots
+## Screenshots
 
 Demo
 <img width="882" alt="demo" src="https://github.com/KeenoLee/react-todoList/assets/108110943/62179772-ce6b-499e-ae6b-9a9e71777cfa">
